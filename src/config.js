@@ -86,18 +86,20 @@ const solanaMetadata = {
 // Advanced configuration.
 const layerConfigurations = [
   {
-    growEditionSizeTo: 11,
+    growEditionSizeTo: 100,
     layersOrder: [
       {
-        name: "Background",
+        name: "Backgrounds",
         options: {
           bypassDNA: false,
         },
       },
-      { name: "Glow" },
-      { name: "Weapons", options: { blend: MODE.overlay, opacity: 0.9 } },
-      { name: "Body" },
       { name: "Eyes" },
+      { name: "Mouth"},
+      { name: "Nose" },
+      { name: "Pants" },
+      { name: "Shirts" },
+      { name: "Skins" },
     ],
   },
 ];
